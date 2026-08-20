@@ -1,15 +1,21 @@
-# GHOST-NetHunter 🌐
+# GHOST-NetHunter: Dedicated Network Infrastructure & Service Hunter 📡
 
-**GHOST-NetHunter** is a high-performance network reconnaissance suite. It leverages asynchronous processing to provide professional-grade network mapping and service discovery for security infrastructure assessments.
+**GHOST-NetHunter** is a high-performance network reconnaissance and service auditing suite. Built for deep infrastructure forensics, it combines non-blocking port enumeration with a smart service fingerprinting engine to identify and map vulnerabilities across 1100+ critical CVEs.
 
-## 🚀 Professional Features
+## 🧠 Smart Network Intelligence
 
-- **Asynchronous Discovery**: Blazing fast port scanning across internal and external network infrastructures.
-- **Service Fingerprinting**: Precise identification of network services and version banners.
-- **Optimized Concurrency**: Engineered with `asyncio` for high-volume scanning without performance degradation.
-- **Ghost-SY1 Interface**: Elite network operations dashboard with real-time status tracking.
+- **Autonomous Service Fingerprinting**: Real-time identification of service versions and OS banners using advanced banner grabbing and protocol analysis.
+- **Weaponized CVE Mapping**: Automatically links discovered open ports and services to 1100+ active exploits in the local database.
+- **AsyncIO Core**: Engineered for maximum speed, allowing for large-scale network audits with minimal detection footprint.
+- **Protocol-Specific Forensics**: Specialized auditing modules for SMB, RDP, SSH, FTP, and DNS protocols.
 
-## 🛠️ Deployment
+## 🚀 Key Features
+
+- **Zero-Input Orchestration**: Simply provide the target host; the engine automatically identifies the services and maps the attack surface.
+- **Interactive Terminal UI**: signature Ghost-SY1 interface with real-time progress tracking and formatted forensics reports.
+- **Independent Architecture**: Fully standalone tool with no dependencies on Kali Linux or Metasploit.
+
+## 📖 Quick Start
 
 ```bash
 git clone https://github.com/GhostSy1/GHOST-NetHunter.git
@@ -20,7 +26,7 @@ python main.py
 
 ## ⚖️ Legal Disclaimer
 
-**IMPORTANT**: This suite is developed for **authorized network security auditing and educational research**. Scanning networks without permission is illegal. The developer (**Ghost-SY1**) is not liable for any legal consequences or damage resulting from the use of this tool. Use responsibly and ethically.
+**FOR AUTHORIZED NETWORK AUDITING ONLY.** Developed by **Ghost-SY1**. Unauthorized use is strictly prohibited.
 
 ---
 Developed by **Ghost-SY1** 🛡️
