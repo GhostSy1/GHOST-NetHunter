@@ -1,38 +1,26 @@
 # GHOST-NetHunter 🌐
 
-**GHOST-NetHunter** is a professional network reconnaissance and arsenal suite designed for rapid network mapping and service discovery. It utilizes asynchronous processing to deliver high-performance scanning capabilities.
+**GHOST-NetHunter** is a high-performance network reconnaissance suite. It leverages asynchronous processing to provide professional-grade network mapping and service discovery for security infrastructure assessments.
 
-## 🚀 Key Features
+## 🚀 Professional Features
 
-- **Asynchronous Port Scanning**: Extremely fast service discovery across large IP ranges.
-- **Service Fingerprinting**: Automatic identification of common network services (SSH, HTTP, MySQL, RDP, etc.).
-- **Interactive Console**: Features the **Ghost-SY1** signature terminal interface for a seamless experience.
-- **Optimized Performance**: Built with `asyncio` to handle multiple concurrent connections efficiently.
+- **Asynchronous Discovery**: Blazing fast port scanning across internal and external network infrastructures.
+- **Service Fingerprinting**: Precise identification of network services and version banners.
+- **Optimized Concurrency**: Engineered with `asyncio` for high-volume scanning without performance degradation.
+- **Ghost-SY1 Interface**: Elite network operations dashboard with real-time status tracking.
 
-## 🛠️ Installation
+## 🛠️ Deployment
 
 ```bash
 git clone https://github.com/GhostSy1/GHOST-NetHunter.git
 cd GHOST-NetHunter
 pip install -r requirements.txt
-```
-
-## 📖 Usage
-
-Launch the arsenal:
-
-```bash
 python main.py
 ```
 
-## 📊 Default Scan Ports
+## ⚖️ Legal Disclaimer
 
-- **Standard**: 21, 22, 23, 25, 53, 80, 110, 135, 139, 443, 445, 3306, 3389, 8080.
-- **Custom**: Users can specify any combination of ports during the interactive session.
-
-## ⚖️ Disclaimer
-
-This tool is intended for authorized security testing and educational purposes only. Unauthorized scanning of networks is prohibited. The developer (**Ghost-SY1**) is not liable for any misuse.
+**IMPORTANT**: This suite is developed for **authorized network security auditing and educational research**. Scanning networks without permission is illegal. The developer (**Ghost-SY1**) is not liable for any legal consequences or damage resulting from the use of this tool. Use responsibly and ethically.
 
 ---
 Developed by **Ghost-SY1** 🛡️
