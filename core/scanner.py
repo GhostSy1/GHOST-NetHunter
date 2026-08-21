@@ -22,7 +22,6 @@ class UltimateNetScanner:
             writer.close()
             await writer.wait_closed()
             
-            # Match port to known vulnerabilities in our 1000+ DB
             matches = [v for v in self.vulnerabilities if str(port) in v['description']]
             return {"port": port, "state": "OPEN", "cve_matches": len(matches)}
         except:
